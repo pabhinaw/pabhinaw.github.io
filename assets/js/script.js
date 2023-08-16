@@ -147,6 +147,7 @@ function showProjects(projects) {
 
 }
 
+/* Comment the dynamic showSkills showProjects function below and use its static one
 fetchData().then(data => {
     showSkills(data);
 });
@@ -154,6 +155,8 @@ fetchData().then(data => {
 fetchData("projects").then(data => {
     showProjects(data);
 });
+*/
+
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
